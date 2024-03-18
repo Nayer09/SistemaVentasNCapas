@@ -16,7 +16,7 @@ namespace SistemasVentas.DAL
             //data source, va el server name, si se lo deja en local deberia de funcionar, gral
             //Initial Catalog, nombre de la base de datos ya creada
             //lo demas son permisos para acceder a la base de datos
-            get { return @"Data Source=DESKTOP-JHGTI79; Initial Catalog=tienda_Rocio; Integrated Security=True; TrustServerCertificate=true;"; }
+            get { return @"Data Source=LAPTOP-5TE1A92M\SQLEXPRESS; Initial Catalog=Nayer_Tienda; Integrated Security=True; TrustServerCertificate=true;"; }
             //get { return ConfigurationManager.ConnectionStrings["cadena"].ToString(); }
         }
         public static DataSet EjecutarDataSet(string consulta)
